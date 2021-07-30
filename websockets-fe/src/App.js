@@ -65,9 +65,6 @@ function App() {
     };
   }, []);
 
-  console.log(userActivity);
-  console.log(currentUsers);
-
   const showLoginSection = () => (
     <div className="account">
       <div className="account__wrapper">
